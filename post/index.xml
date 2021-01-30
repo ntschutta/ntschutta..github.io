@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nathaniel Schutta</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Nathaniel Schutta</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Nathaniel Schutta</copyright>
+    <lastBuildDate>Wed, 05 Feb 2020 15:14:48 -0600</lastBuildDate>
+    
+	    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Top Pivotal Conversations episodes of 2019</title>
+      <link>/post/piv-conv-knative/</link>
+      <pubDate>Wed, 05 Feb 2020 15:14:48 -0600</pubDate>
+      
+      <guid>/post/piv-conv-knative/</guid>
+      <description>&lt;p&gt;
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/piv-conv-dormain.png&#34; &gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Top Pivotal Conversations episodes of 2019&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+I always enjoy chatting with &lt;a href=&#34;https://cote.io&#34;&gt;Cote&lt;/a&gt; - and apparently many people do as well! Our &lt;a href=&#34;https://soundcloud.com/pivotalconversations/knate-ive&#34;&gt;conversation&lt;/a&gt; about &lt;a href=&#34;https://pivotal.io/knative&#34;&gt;Knative&lt;/a&gt;, &lt;a href=&#34;https://spring.io/projects/spring-boot&#34;&gt;Spring Boot&lt;/a&gt; and more is, &lt;a href=&#34;https://twitter.com/DormainDrewitz/status/1223313491156557824&#34;&gt;according to the one and only Dormain Drewitz&lt;/a&gt;, number 2 on the Top Pivotal Conversations episodes of 2019!&lt;/p&gt;
+&lt;p&gt;I&#39;m pretty sure Cote brings his podcasting equipment &lt;em&gt;everywhere&lt;/em&gt; and you can even find him and I discussing &lt;a href=&#34;/publication/pivotal-convo-98/&#34;&gt;12 Factor apps&lt;/a&gt; (and undead sculptures) as well as talking about &lt;a href=&#34;/publication/piv-conv-istanbul-pod/&#34;&gt;ops at SpringOne Tour Istanbul&lt;/a&gt; along with the one and only &lt;a href=&#34;https://twitter.com/pczarkowski&#34;&gt;Paul Czarkowski&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

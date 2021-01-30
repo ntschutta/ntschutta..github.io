@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>engineer on Nathaniel Schutta</title>
+    <link>/tags/engineer/</link>
+    <description>Recent content in engineer on Nathaniel Schutta</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Nathaniel Schutta</copyright>
+    <lastBuildDate>Fri, 28 Apr 2017 17:32:31 -0600</lastBuildDate>
+    
+	    <atom:link href="/tags/engineer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reflecting on Javascript and Developer Evolution</title>
+      <link>/publication/nfjs-sp17-pod/</link>
+      <pubDate>Fri, 28 Apr 2017 17:32:31 -0600</pubDate>
+      
+      <guid>/publication/nfjs-sp17-pod/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

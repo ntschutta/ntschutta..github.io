@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workshop on Nathaniel Schutta</title>
+    <link>/tags/workshop/</link>
+    <description>Recent content in workshop on Nathaniel Schutta</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Nathaniel Schutta</copyright>
+    <lastBuildDate>Wed, 19 Feb 2020 09:00:00 -0600</lastBuildDate>
+    
+	    <atom:link href="/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Devnexus</title>
+      <link>/talk/devnexus2020/</link>
+      <pubDate>Wed, 19 Feb 2020 09:00:00 -0600</pubDate>
+      
+      <guid>/talk/devnexus2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developer To Architect</title>
+      <link>/abstracts/devtoarch/</link>
+      <pubDate>Tue, 28 Jan 2020 15:23:49 -0600</pubDate>
+      
+      <guid>/abstracts/devtoarch/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;Becoming a software architect is a longed-for career upgrade for many software developers. While the job title suggests a work day focused on technical decision-making, the reality is quite different. In this workshop, software architect Nathaniel Schutta constructs a real world job description in which communication trumps coding.&lt;/p&gt;
+&lt;p&gt;Discover the skill sets needed to juggle multiple priorities, meetings, and time demandsLearn why your best team leadership tool is not a hammer, but a shared cup of coffeeHear the best ways to give and take criticismUnderstand the necessity of writing effective email and formal architecture documentsGet tips for delivering confident career-building presentations to any audienceReview essential techniques for stakeholder management and relationship buildingExplore the critical needs for architecture reviews and an effective process for conducting themThrough lecture and small group exercises, Nathaniel will help you understand what it means to be a successful architect. Working through various problems, attendees will have opportunities to think through architectural decisions and patterns, discuss the importance of non functional requirements and why architects cannot afford to practice resume driven design.&lt;/p&gt;
+&lt;h3 id=&#34;what-youll-learn&#34;&gt;What you&#39;ll learn&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Discover the skill sets needed to juggle multiple priorities, meetings, and time demands&lt;/li&gt;
+&lt;li&gt;Learn why your best team leadership tool is not a hammer but a shared cup of coffee&lt;/li&gt;
+&lt;li&gt;Hear the best ways to give and take criticism&lt;/li&gt;
+&lt;li&gt;Understand the necessity of writing effective email and formal architecture documents&lt;/li&gt;
+&lt;li&gt;Get tips for delivering confident career-building presentations to any audience&lt;/li&gt;
+&lt;li&gt;Review essential techniques for stakeholder management and relationship building&lt;/li&gt;
+&lt;li&gt;Explore the critical needs for architecture reviews and an effective process for conducting them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;duration-1-3-days&#34;&gt;Duration: 1-3 Days&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paved Roads</title>
+      <link>/abstracts/pavedroads/</link>
+      <pubDate>Tue, 28 Jan 2020 15:08:56 -0600</pubDate>
+      
+      <guid>/abstracts/pavedroads/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;As we migrate towards distributed applications, it is more than just our architectures that are changing, so too are the structures of our teams. The Inverse Conway Maneuver tells us small, autonomous teams are needed to produce small, autonomous services. Architects are spread thin and can’t be involved with every decision. Today, we must empower our teams but we need to ensure our teams are making good choices. How do we do that? How do you put together a cohesive architecture around distributed teams? This talk will discuss creating “paved roads”, well worn paths that we know works and we can support. We will also explore the importance of fitness functions to help our teams adopt appropriate designs.&lt;/p&gt;
+&lt;h2 id=&#34;duration-45-90-minutes&#34;&gt;Duration: 45-90 minutes&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Architecting Cloud Native Applications</title>
+      <link>/abstracts/archcloudnative/</link>
+      <pubDate>Tue, 28 Jan 2020 15:04:08 -0600</pubDate>
+      
+      <guid>/abstracts/archcloudnative/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;By now your organization has planted a flag in “the Cloud” and it is up to you to figure out just what that means to your application portfolio. Should everything be a microservice? Wait, what is a microservices anyway? How do you deal with massively distributed applications? What do you do with your legacy portfolio? In this presentation, we will walk through how the cloud impacts are applications and what we can do to successfully move our organizations forward.&lt;/p&gt;
+&lt;h3 id=&#34;topics&#34;&gt;Topics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud native culture&lt;/li&gt;
+&lt;li&gt;Domain driven design&lt;/li&gt;
+&lt;li&gt;The importance of paved roads&lt;/li&gt;
+&lt;li&gt;Chaos engineering&lt;/li&gt;
+&lt;li&gt;Production Hardened Services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Please note Architecting Cloud Native Applications can also be delivered as a workshop from 3 hours to 2 days.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;duration-45-90-minutes&#34;&gt;Duration: 45-90 minutes&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thinking Architecturally</title>
+      <link>/abstracts/thinking/</link>
+      <pubDate>Tue, 28 Jan 2020 13:43:28 -0600</pubDate>
+      
+      <guid>/abstracts/thinking/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;Rich Hickey once said programmers know the benefits of everything and the trade offs of nothing…an approach that can lead a project down a path of frustrated developers and unhappy customers. As architects though, we must consider the trade offs of every new library, language, pattern or approach and quickly make decisions often with incomplete information. How should we think about the inevitable technology choices we have to make on a project? How do we balance competing agendas? How do we keep our team happy and excited without chasing every new thing that someone finds on the inner webs?&lt;/p&gt;
+&lt;p&gt;As architects it is our responsibility to effectively guide our teams on the technology journey. In this talk I will outline the importance of trade offs, how we can analyze new technologies and how we can effectively capture the inevitable architectural decisions we will make. I will also explore the value of fitness functions as a way of ensuring the decisions we make are actually reflected in the code base.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please note Thinking Architecturally can also be delivered as a workshop from 3 hours to 2 days.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thinking Architecturally&lt;/em&gt;, is &lt;a href=&#34;https://content.pivotal.io/ebooks/thinking-architecturally&#34;&gt;now available&lt;/a&gt; in prose form! If you are interested in perusing the material, it is a &lt;a href=&#34;https://content.pivotal.io/ebooks/thinking-architecturally&#34;&gt;free download&lt;/a&gt; from the &lt;a href=&#34;https://content.pivotal.io/resources&#34;&gt;Pivotal Resource center&lt;/a&gt;. Enjoy and please reach out with feedback!&lt;/p&gt;
+&lt;h2 id=&#34;duration-45-90-minutes&#34;&gt;Duration: 45-90 minutes&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

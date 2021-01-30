@@ -1,0 +1,5 @@
+---
+applications:
+- name: jat
+  memory: 128M
+  instances: 1

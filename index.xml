@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nathaniel Schutta</title>
+    <link>/</link>
+    <description>Recent content on Nathaniel Schutta</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Nathaniel Schutta</copyright>
+    <lastBuildDate>Fri, 27 Mar 2020 08:30:00 -0600</lastBuildDate>
+    
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>/post/</link>
+      <pubDate>Wed, 05 Feb 2020 15:14:48 -0600</pubDate>
+      
+      <guid>/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talk Abstracts</title>
+      <link>/abstracts/</link>
+      <pubDate>Tue, 28 Jan 2020 15:23:49 -0600</pubDate>
+      
+      <guid>/abstracts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publication/</link>
+      <pubDate>Wed, 04 Sep 2019 19:09:47 -0600</pubDate>
+      
+      <guid>/publication/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

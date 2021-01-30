@@ -1,1 +1,3753 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.62.2" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nathaniel T Schutta">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Developer Advocate">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.df45b2271ecaad0aea7420c3f3212ce1.css">
+
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Nathaniel Schutta">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Nathaniel Schutta">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ntschutta">
+  <meta property="twitter:creator" content="@ntschutta">
+  
+  <meta property="og:site_name" content="Nathaniel Schutta">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Nathaniel Schutta">
+  <meta property="og:description" content="Developer Advocate"><meta property="og:image" content="/img/portrait-large.jpg">
+  <meta property="twitter:image" content="/img/portrait-large.jpg"><meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2020-03-27T08:30:00-06:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "hsl(339, 90%, 68%)",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "hsl(339, 90%, 68%)"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+
+  
+
+
+
+
+
+  <title>Nathaniel Schutta</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Nathaniel Schutta</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Upcoming Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#abstracts" data-target="#abstracts"><span>Abstracts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="hero" class="home-section wg-hero   " style="background-color: #fff;" >
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-md-6 order-md-1 text-center text-md-left align-self-center">
+
+
+    
+    <div><h2 id="my-name-is-nathaniel-schutta-and-im-an-architect-and-developer-advocate-for-vmware-in-a-nutshell-i-am-an-architect-as-a-service">My name is <strong>Nathaniel Schutta</strong> and I'm an <strong>architect</strong> and <strong>developer advocate</strong> for VMware. In a nutshell, I am an <strong>architect as a service</strong>.</h2>
+</div>
+    
+
+    
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+    <p class="mt-4">
+      <a href="/authors/admin"  class="btn btn-primary btn-lg  page-scroll">Know more</a>
+
+      
+      
+        
+        
+        
+        
+          
+        
+      <a href="/#contact"  class="btn btn-lg btn-outline-primary page-scroll">Contact me</a>
+      
+    </p>
+    
+
+  
+  
+  </div>
+  <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
+    <img class="hero-img img-fluid" src="/img/portrait-large.jpg" alt="">
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
+  itemref=" person-address">
+  <div class="col-lg-5">
+    <div id="profile">
+      
+      <img class="portrait img-fluid" src="https://s.gravatar.com/avatar/db57fc5b2f4827a43e5afea9f636fa48?s=200')"
+        itemprop="image" alt="Avatar">
+      
+    </div>
+    <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="mailto:nschutta@vmware.com" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://twitter.com/ntschutta" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://github.com/ntschutta" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="col-lg-7" itemprop="description">
+
+    <div class="portrait-title">
+      <h2 itemprop="name">Nathaniel T Schutta</h2>
+      <h3 class="d-inline-block" itemprop="jobTitle">Developer Advocate,</h3>
+
+      
+      <h3 class="d-inline-block" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+        <a href="https://www.vmware.com" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">VMware</span>
+          </a>
+      </h3>
+      
+    </div>
+
+    <link itemprop="url" href="">
+
+
+
+    <p>Nathaniel T. Schutta is a software architect focused on cloud computing and building usable applications. A proponent of polyglot programming, Nate has written multiple books and appeared in <a href="#publications">various videos</a>. Nate is a seasoned speaker regularly presenting at <a href="#talks">conferences worldwide</a>, <a href="https://nofluffjuststuff.com/home/main">No Fluff Just Stuff symposia</a>, meetups, universities, and user groups. In addition to his day job, Nate is an adjunct professor at the <a href="https://www.umsec.umn.edu">University of Minnesota</a> where he teaches students to embrace (and evaluate) technical change. Driven to rid the world of bad presentations, Nate coauthored the book <a href="https://www.safaribooksonline.com/library/view/presentation-patterns/9781491954980/">Presentation Patterns</a> with <a href="http://nealford.com">Neal Ford</a> and <a href="http://matthewjmccullough.com">Matthew McCullough</a>. Nate recently published <a href="https://www.safaribooksonline.com/library/view/thinking-architecturally/9781492034421/">Thinking Architecturally</a> available as a free download from <a href="https://content.pivotal.io/ebooks/thinking-architecturally">Pivotal</a>.</p>
+<p>Nate's presentations cover a variety of topics ranging from architecture fundamentals, mobile design, usability, cloud computing, JavaScript and everything in between. His current slate of talks can be found in <a href="/#abstracts">Talk Abstracts</a> however additional presentations can also be found at his <a href="https://nofluffjuststuff.com/conference/speaker/nathaniel_schutta">NFJS Speaker Page</a>. If you are interested in having Nate speak at your event, please <a href="mailto:nschutta@vmware.com">reach out</a>.</p>
+
+
+    
+
+
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="skills" class="home-section wg-featurette   "  >
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-12 section-heading">
+    <h1>Interests</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow">
+      <div class="progress-bar" style="width:"></div>
+      
+      <h3>Cloud Computing</h3>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow">
+      <div class="progress-bar" style="width:"></div>
+      
+      <h3>Architecture</h3>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow">
+      <div class="progress-bar" style="width:"></div>
+      
+      <h3>Microservices</h3>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow">
+      <div class="progress-bar" style="width:"></div>
+      
+      <h3>Usability</h3>
+      
+    </div>
+  </div>
+  
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>Recent &amp; Upcoming Talks</h1>
+    
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/Event">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/talk/devnexus2020/" itemprop="url">Devnexus</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          Join the &lsquo;&lt;'dev&rsquo;/&gt;'olution
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+          <div>
+            <span itemprop="startDate">
+              
+              Feb 19, 2020
+              
+              9:00 AM
+              
+              &mdash; 7:20 PM
+              
+              
+            </span>
+            
+            <span class="middot-divider"></span>
+            <span itemprop="location">Atlanta, GA</span>
+            
+          </div>
+          
+
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+      </div>
+    </div>
+  </div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/Event">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/talk/saconny2020/" itemprop="url">O&#39;Reilly Software Architecture Conference</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          Cover the full scope of software architecture
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+          <div>
+            <span itemprop="startDate">
+              
+              Feb 23, 2020
+              
+              9:00 AM
+              
+              &mdash; 5:00 PM
+              
+              
+            </span>
+            
+            <span class="middot-divider"></span>
+            <span itemprop="location">New York, NY</span>
+            
+          </div>
+          
+
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+      </div>
+    </div>
+  </div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/Event">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/talk/devtoarch2020-03/" itemprop="url">From Developer to Software Architect</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          Software developers often long to upgrade their careers by becoming software architects. But many don't realize that although the job …
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+          <div>
+            <span itemprop="startDate">
+              
+              Mar 2, 2020
+              
+              9:00 AM
+              
+              &mdash; 12:00 PM
+              
+              
+            </span>
+            
+            <span class="middot-divider"></span>
+            <span itemprop="location">O&#39;Reilly Online</span>
+            
+          </div>
+          
+
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+      </div>
+    </div>
+  </div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/Event">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/talk/s1seattle/" itemprop="url">SpringOne Tour Seattle</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          Cloud-Native Java From the Source
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+          <div>
+            <span itemprop="startDate">
+              
+              Mar 9, 2020
+              
+              8:00 AM
+              
+              &mdash; 5:00 PM
+              
+              
+            </span>
+            
+            <span class="middot-divider"></span>
+            <span itemprop="location">Seattle, WA</span>
+            
+          </div>
+          
+
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+      </div>
+    </div>
+  </div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/Event">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/talk/ness2020-03/" itemprop="url">New England Software Symposium</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          The Definitive Conference Series for Software Developers and Architects
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+          <div>
+            <span itemprop="startDate">
+              
+              Mar 13, 2020
+              
+              12:00 PM
+              
+              &mdash; 5:00 PM
+              
+              
+            </span>
+            
+            <span class="middot-divider"></span>
+            <span itemprop="location">Boston, MA</span>
+            
+          </div>
+          
+
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+      </div>
+    </div>
+  </div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/Event">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/talk/ujug/" itemprop="url">Utah Java Users Group</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          Utah Java Users Group (UJUG) meets once a month to discuss the latest in the Java programming language and other tech topics.
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+          <div>
+            <span itemprop="startDate">
+              
+              Mar 19, 2020
+              
+              6:00 PM
+              
+              &mdash; 8:00 PM
+              
+              
+            </span>
+            
+            <span class="middot-divider"></span>
+            <span itemprop="location">Salt Lake City, UT</span>
+            
+          </div>
+          
+
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+      </div>
+    </div>
+  </div>
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/Event">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/talk/cti/" itemprop="url">Center for Technology Innovation Workshop Series</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          The Center for Technology Innovation sponsors a series of day-long workshops on cutting-edge technology issues with nationally-known …
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+          <div>
+            <span itemprop="startDate">
+              
+              Mar 27, 2020
+              
+              8:30 AM
+              
+              &mdash; 5:00 PM
+              
+              
+            </span>
+            
+            <span class="middot-divider"></span>
+            <span itemprop="location">Milwaukee, WI</span>
+            
+          </div>
+          
+
+          
+        </div>
+
+        
+        <div class="btn-links">
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+      </div>
+    </div>
+  </div>
+      
+      
+
+      
+
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="abstracts" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>Talk Abstracts</h1>
+    
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/abstracts/thinking/" itemprop="url">Thinking Architecturally</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2020-01-28 13:43:28 -0600 CST" itemprop="datePublished">
+<meta content="2020-01-28 13:43:28 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jan 28, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Rich Hickey once said programmers know the benefits of everything and the trade offs of nothing…an approach that can lead a project down a path of frustrated developers and unhappy customers.
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/abstracts/archcloudnative/" itemprop="url">Architecting Cloud Native Applications</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2020-01-28 15:04:08 -0600 CST" itemprop="datePublished">
+<meta content="2020-01-28 15:04:08 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jan 28, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In this presentation, we will walk through how the cloud impacts are applications and what we can do to successfully move our organizations forward.
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/abstracts/pavedroads/" itemprop="url">Paved Roads</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2020-01-28 15:08:56 -0600 CST" itemprop="datePublished">
+<meta content="2020-01-28 15:08:56 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jan 28, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      As we migrate towards distributed applications, it is more than just our architectures that are changing, so too are the structures of our teams.
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/abstracts/cloudculture/" itemprop="url">Cloud Native Culture</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2020-01-28 15:12:28 -0600 CST" itemprop="datePublished">
+<meta content="2020-01-28 15:12:28 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jan 28, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Your organization is knee deep in functions and platforms and containers and while the technology is important, we can’t afford to overlook the importance of culture.
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/abstracts/evolvingcloudnative/" itemprop="url">Evolving to Cloud Native</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2020-01-28 15:14:43 -0600 CST" itemprop="datePublished">
+<meta content="2020-01-28 15:14:43 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jan 28, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      This talk will explore the strategies, tools and techniques you can apply as you evolve towards a cloud native future.
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/abstracts/responsiblemicro/" itemprop="url">Responsible Microservices</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2020-01-28 15:16:21 -0600 CST" itemprop="datePublished">
+<meta content="2020-01-28 15:16:21 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jan 28, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      There are many good reasons to use a microservices architecture. But there are no free lunches.
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/abstracts/devtoarch/" itemprop="url">Developer To Architect</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2020-01-28 15:23:49 -0600 CST" itemprop="datePublished">
+<meta content="2020-01-28 15:23:49 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jan 28, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Learn how to think strategically, manage stakeholder expectations, and make critical architectural decisions.
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+
+      
+
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>Publications</h1>
+    
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/nfjs-arch-com-pod/" itemprop="url">Communicating like an Architect</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2019-09-04 19:09:47 -0600 -0600" itemprop="datePublished">
+<meta content="2019-09-04 19:09:47 -0600 -0600" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>September 2019</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      No Fluff Just Stuff Podcast
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Recorded live @ UberConfX this week Nate Schutta shares his wisdom on the skills necessary to be a truly great software architect.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://nofluffjuststuff.com/podcast/1/communicating_like_an_architect" target="_blank" rel="noopener">
+    <i class="fas fa-podcast mr-1"></i>
+    Podcast
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://podcasts.apple.com/us/podcast/communicating-like-an-architect/id1071097135?i=1000448776992" target="_blank" rel="noopener">
+    <i class="fab fa-itunes mr-1"></i>
+    iTunes
+  </a>
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/piv-conv-istanbul-pod/" itemprop="url">Putting the Ops Back Into DevOps, SpringOne Tour Istanbul with Nate Schutta &amp; Paul Czarkowski</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2019-05-27 19:16:59 -0600 -0600" itemprop="datePublished">
+<meta content="2019-05-27 19:16:59 -0600 -0600" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 2019</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Pivotal
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      This week I've got a discussion about DevOps I had with Nate and Paul. I've been curious about the changing nature of DevOps as SRE and platform operations comes into vogue.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://content.pivotal.io/podcasts/putting-the-ops-back-into-devops-springone-tour-istanbul-with-nate-schutta-paul-czarkowski" target="_blank" rel="noopener">
+    <i class="fas fa-podcast mr-1"></i>
+    Podcast
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://podcasts.apple.com/us/podcast/putting-ops-back-into-devops-springone-tour-istanbul/id1123116274?i=1000438862486" target="_blank" rel="noopener">
+    <i class="fab fa-itunes mr-1"></i>
+    iTunes
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://soundcloud.com/pivotalconversations/putting-the-ops-back-into-devops-springone-tour-istanbul-with-nate-schutta-paul-czarkowski" target="_blank" rel="noopener">
+    <i class="fab fa-soundcloud mr-1"></i>
+    SoundCloud
+  </a>
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/piv-conv-knative/" itemprop="url">Knate-ive</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2019-01-02 15:01:11 -0600 CST" itemprop="datePublished">
+<meta content="2019-01-02 15:01:11 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>January 2019</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Pivotal
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Serverless! Functions! Knative! What's it all mean? Nate Schutta explains it all to Coté in this episode, wrapping up with a good explanation of what Knative is and how it fits in with Pivotal Function Service and Spring Boot.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://content.pivotal.io/podcasts/knate-ive" target="_blank" rel="noopener">
+    <i class="fas fa-podcast mr-1"></i>
+    Podcast
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://podcasts.apple.com/us/podcast/knate-ive/id1123116274?i=1000426862159" target="_blank" rel="noopener">
+    <i class="fab fa-itunes mr-1"></i>
+    iTunes
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://soundcloud.com/pivotalconversations/knate-ive" target="_blank" rel="noopener">
+    <i class="fab fa-soundcloud mr-1"></i>
+    SoundCloud
+  </a>
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/think-arch-pod/" itemprop="url">Thinking Architecturally Podcast</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2018-09-07 17:14:54 -0600 -0600" itemprop="datePublished">
+<meta content="2018-09-07 17:14:54 -0600 -0600" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>September 2018</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      No Fluff Just Stuff Podcast
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Michael Carducci and Nate Schutta sit down to talk about how to approach software architecture and mastery of the craft of software development. Check out Nate’s <a href="https://content.pivotal.io/ebooks/thinking-architecturally">latest publication</a>.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://nofluffjuststuff.com/podcast/1/thinking_architectually" target="_blank" rel="noopener">
+    <i class="fas fa-podcast mr-1"></i>
+    Podcast
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://itunes.apple.com/us/podcast/thinking-architectually/id1071097135?i=1000419076506&amp;mt=2" target="_blank" rel="noopener">
+    <i class="fab fa-itunes mr-1"></i>
+    iTunes
+  </a>
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/think-arch-book/" itemprop="url">Thinking Architecturally Book</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2018-05-31 17:27:45 -0600 -0600" itemprop="datePublished">
+<meta content="2018-05-31 17:27:45 -0600 -0600" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 2018</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      O'Reilly Media, Inc.
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      New software technology appears every year. Like clockwork, another language, library, pattern, or approach will arrive on the  scene with plenty of hype and developer enthusiasm. As someone whose job requires making architectural decisions, you need to evaluate these new technologies with an eye toward the inevitable tradeoffs before deciding if a new framework or language is right for your project.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://content.pivotal.io/ebooks/thinking-architecturally" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+
+      
+      <div class="see-all">
+        <a href="/publication/">
+          See all publications
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>Recent Posts</h1>
+    
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-md-10 col-lg-8">
+    <div class="media stream-item shadow p-4" itemscope itemtype="http://schema.org/BlogPosting">
+      <div class="media-body">
+
+        <h3 class="article-title mb-0 mt-0" itemprop="name">
+          <a href="/post/piv-conv-knative/" itemprop="url">Top Pivotal Conversations episodes of 2019</a>
+        </h3>
+
+        
+        <div class="article-style" itemprop="articleBody">
+          I always enjoy chatting with Cote - and apparently many people do as well!
+        </div>
+        
+
+        <div class="stream-meta article-metadata">
+
+          
+
+          
+          
+
+
+
+<meta content="2020-02-05 15:14:48 -0600 CST" itemprop="datePublished">
+<meta content="2020-02-05 15:14:48 -0600 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Feb 5, 2020</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+          
+        </div>
+
+        
+
+      </div>
+      <div class="ml-3">
+        
+        
+      </div>
+    </div>
+  </div>
+      
+      
+
+      
+
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="tags" class="home-section wg-tag-cloud   "  >
+    <div class="container">
+      
+
+<div class="row">
+  <div class="col-12 text-center section-heading">
+    <h1>Popular Topics</h1>
+    
+  </div>
+  <div class="col-12">
+    
+
+    
+    
+    
+
+    <div class="text-center">
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/12-factor/">12-factor</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/12factor/">12factor</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/addison-wesley/">Addison-Wesley</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/architect/">architect</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/architecture/">architecture</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/book/">book</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/boot/">boot</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/cloud/">cloud</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/cloud-native/">cloud native</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/communication/">communication</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/conference/">conference</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/containers/">containers</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/culture/">culture</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/devnexus/">devnexus</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/devops/">DevOps</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/docker/">docker</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/engineer/">engineer</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/enterprise-architecture/">Enterprise Architecture</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/faas/">FaaS</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/functions/">functions</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/fundamentals/">fundamentals</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/ilities/">ilities</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/javascript/">javascript</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/jug/">JUG</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/k8s/">k8s</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/keynote/">keynote</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/knative/">knative</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/kubernetes/">kubernetes</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/lessons-learned/">lessons learned</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/microservices/">microservices</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/nfjs/">nfjs</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/nofluffjuststuff/">nofluffjuststuff</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/online/">online</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/ops/">ops</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/oreilly/">O’Reilly</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/paris/">Paris</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/patterns/">patterns</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/pivotal/">Pivotal</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/podcast/">podcast</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/presentation/">presentation</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/principles/">principles</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/reactive/">reactive</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/sculptures/">sculptures</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/serverless/">serverless</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/services/">services</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/spring/">spring</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/sre/">SRE</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/talk/">talk</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/techniques/">techniques</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/technology/">technology</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/thinking/">thinking</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/trade-offs/">trade-offs</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/uberconfx/">UberConfX</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/user-group/">user group</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/video/">video</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/vmware/">VMware</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/workshop/">workshop</a>
+      
+    </div>
+    
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 text-center section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12">
+    
+  </div>
+  <div class="col-md-6">
+    
+
+  </div>
+  <div class="col-md-6">
+    <ul class="fa-ul" itemscope>
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-map-marker-alt mt-2" aria-hidden="true"></i>
+        <span id="person-address" itemprop="address">Minnesota</span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-clock mt-2" aria-hidden="true"></i>
+        <span>By Appointment</span>
+      </li>
+      
+
+      
+
+    </ul>
+  </div>
+  <div class="col-12">
+    
+    <div class="d-none">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="44.8848">
+      <input id="map-lng" value="-93.2223">
+      <input id="map-dir" value="Minnesota">
+      <input id="map-zoom" value="5">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
+    
+  </div>
+</div>
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.281fa180ccfa1769ea3c7dd430814861.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        
+        <p>
+          © 2020 Nathaniel Schutta &middot; 
+          Powered by
+          <a href="https://themefisher.com" target="_blank" rel="noopener">themefisher</a> for
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/ntschutta" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="mailto:nschutta@vmware.com"  title="Email Me"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

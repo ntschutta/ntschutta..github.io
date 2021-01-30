@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thinking on Nathaniel Schutta</title>
+    <link>/tags/thinking/</link>
+    <description>Recent content in thinking on Nathaniel Schutta</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Nathaniel Schutta</copyright>
+    <lastBuildDate>Fri, 27 Mar 2020 08:30:00 -0600</lastBuildDate>
+    
+	    <atom:link href="/tags/thinking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Center for Technology Innovation Workshop Series</title>
+      <link>/talk/cti/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/talk/cti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utah Java Users Group</title>
+      <link>/talk/ujug/</link>
+      <pubDate>Thu, 19 Mar 2020 18:00:00 -0600</pubDate>
+      
+      <guid>/talk/ujug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Developer to Software Architect</title>
+      <link>/talk/devtoarch2020-03/</link>
+      <pubDate>Mon, 02 Mar 2020 09:00:00 -0600</pubDate>
+      
+      <guid>/talk/devtoarch2020-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O&#39;Reilly Software Architecture Conference</title>
+      <link>/talk/saconny2020/</link>
+      <pubDate>Sun, 23 Feb 2020 09:00:00 -0600</pubDate>
+      
+      <guid>/talk/saconny2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developer To Architect</title>
+      <link>/abstracts/devtoarch/</link>
+      <pubDate>Tue, 28 Jan 2020 15:23:49 -0600</pubDate>
+      
+      <guid>/abstracts/devtoarch/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;Becoming a software architect is a longed-for career upgrade for many software developers. While the job title suggests a work day focused on technical decision-making, the reality is quite different. In this workshop, software architect Nathaniel Schutta constructs a real world job description in which communication trumps coding.&lt;/p&gt;
+&lt;p&gt;Discover the skill sets needed to juggle multiple priorities, meetings, and time demandsLearn why your best team leadership tool is not a hammer, but a shared cup of coffeeHear the best ways to give and take criticismUnderstand the necessity of writing effective email and formal architecture documentsGet tips for delivering confident career-building presentations to any audienceReview essential techniques for stakeholder management and relationship buildingExplore the critical needs for architecture reviews and an effective process for conducting themThrough lecture and small group exercises, Nathaniel will help you understand what it means to be a successful architect. Working through various problems, attendees will have opportunities to think through architectural decisions and patterns, discuss the importance of non functional requirements and why architects cannot afford to practice resume driven design.&lt;/p&gt;
+&lt;h3 id=&#34;what-youll-learn&#34;&gt;What you&#39;ll learn&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Discover the skill sets needed to juggle multiple priorities, meetings, and time demands&lt;/li&gt;
+&lt;li&gt;Learn why your best team leadership tool is not a hammer but a shared cup of coffee&lt;/li&gt;
+&lt;li&gt;Hear the best ways to give and take criticism&lt;/li&gt;
+&lt;li&gt;Understand the necessity of writing effective email and formal architecture documents&lt;/li&gt;
+&lt;li&gt;Get tips for delivering confident career-building presentations to any audience&lt;/li&gt;
+&lt;li&gt;Review essential techniques for stakeholder management and relationship building&lt;/li&gt;
+&lt;li&gt;Explore the critical needs for architecture reviews and an effective process for conducting them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;duration-1-3-days&#34;&gt;Duration: 1-3 Days&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thinking Architecturally</title>
+      <link>/abstracts/thinking/</link>
+      <pubDate>Tue, 28 Jan 2020 13:43:28 -0600</pubDate>
+      
+      <guid>/abstracts/thinking/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;Rich Hickey once said programmers know the benefits of everything and the trade offs of nothing…an approach that can lead a project down a path of frustrated developers and unhappy customers. As architects though, we must consider the trade offs of every new library, language, pattern or approach and quickly make decisions often with incomplete information. How should we think about the inevitable technology choices we have to make on a project? How do we balance competing agendas? How do we keep our team happy and excited without chasing every new thing that someone finds on the inner webs?&lt;/p&gt;
+&lt;p&gt;As architects it is our responsibility to effectively guide our teams on the technology journey. In this talk I will outline the importance of trade offs, how we can analyze new technologies and how we can effectively capture the inevitable architectural decisions we will make. I will also explore the value of fitness functions as a way of ensuring the decisions we make are actually reflected in the code base.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please note Thinking Architecturally can also be delivered as a workshop from 3 hours to 2 days.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thinking Architecturally&lt;/em&gt;, is &lt;a href=&#34;https://content.pivotal.io/ebooks/thinking-architecturally&#34;&gt;now available&lt;/a&gt; in prose form! If you are interested in perusing the material, it is a &lt;a href=&#34;https://content.pivotal.io/ebooks/thinking-architecturally&#34;&gt;free download&lt;/a&gt; from the &lt;a href=&#34;https://content.pivotal.io/resources&#34;&gt;Pivotal Resource center&lt;/a&gt;. Enjoy and please reach out with feedback!&lt;/p&gt;
+&lt;h2 id=&#34;duration-45-90-minutes&#34;&gt;Duration: 45-90 minutes&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Communicating like an Architect</title>
+      <link>/publication/nfjs-arch-com-pod/</link>
+      <pubDate>Wed, 04 Sep 2019 19:09:47 -0600</pubDate>
+      
+      <guid>/publication/nfjs-arch-com-pod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thinking Architecturally Podcast</title>
+      <link>/publication/think-arch-pod/</link>
+      <pubDate>Fri, 07 Sep 2018 17:14:54 -0600</pubDate>
+      
+      <guid>/publication/think-arch-pod/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/ntschutta/status/1036970522796584961&#34;&gt;Michael and I&lt;/a&gt; got together to talk about my latest book project, &lt;a href=&#34;https://content.pivotal.io/ebooks/thinking-architecturally&#34;&gt;Thinking Architecturally&lt;/a&gt;! So you now you listen to my thoughts on being an architect, dealing w/ change, etc. Enjoy and please reach out with feedback!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thinking Architecturally Book</title>
+      <link>/publication/think-arch-book/</link>
+      <pubDate>Thu, 31 May 2018 17:27:45 -0600</pubDate>
+      
+      <guid>/publication/think-arch-book/</guid>
+      <description>
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/thinking-arch-cover.png&#34; &gt;
+
+&lt;img src=&#34;/img/thinking-arch-cover.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Thinking Architecturally&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;I&#39;m &lt;a href=&#34;https://twitter.com/ntschutta/status/997184365363843073&#34;&gt;very excited to announce&lt;/a&gt; my latest book project, Thinking Architecturally, is &lt;a href=&#34;https://content.pivotal.io/ebooks/thinking-architecturally&#34;&gt;now available&lt;/a&gt;! My thoughts on being an architect, dealing w/ change, etc. If you’ve attended one of my talks in the last few years, you will recognize some of the material. The reception has been beyond my expectations and I am delighted by the responses I&#39;ve received from people that have read the book. If you are interested in perusing the material, it is a &lt;a href=&#34;https://content.pivotal.io/ebooks/thinking-architecturally&#34;&gt;free download&lt;/a&gt; from the &lt;a href=&#34;https://content.pivotal.io/resources&#34;&gt;Pivotal Resource center&lt;/a&gt;. Enjoy and please reach out with feedback!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

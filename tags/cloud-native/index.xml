@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud native on Nathaniel Schutta</title>
+    <link>/tags/cloud-native/</link>
+    <description>Recent content in cloud native on Nathaniel Schutta</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Nathaniel Schutta</copyright>
+    <lastBuildDate>Fri, 27 Mar 2020 08:30:00 -0600</lastBuildDate>
+    
+	    <atom:link href="/tags/cloud-native/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Center for Technology Innovation Workshop Series</title>
+      <link>/talk/cti/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/talk/cti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpringOne Tour Seattle</title>
+      <link>/talk/s1seattle/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/talk/s1seattle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O&#39;Reilly Software Architecture Conference</title>
+      <link>/talk/saconny2020/</link>
+      <pubDate>Sun, 23 Feb 2020 09:00:00 -0600</pubDate>
+      
+      <guid>/talk/saconny2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Top Pivotal Conversations episodes of 2019</title>
+      <link>/post/piv-conv-knative/</link>
+      <pubDate>Wed, 05 Feb 2020 15:14:48 -0600</pubDate>
+      
+      <guid>/post/piv-conv-knative/</guid>
+      <description>&lt;p&gt;
+
+
+  
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/piv-conv-dormain.png&#34; &gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Top Pivotal Conversations episodes of 2019&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+I always enjoy chatting with &lt;a href=&#34;https://cote.io&#34;&gt;Cote&lt;/a&gt; - and apparently many people do as well! Our &lt;a href=&#34;https://soundcloud.com/pivotalconversations/knate-ive&#34;&gt;conversation&lt;/a&gt; about &lt;a href=&#34;https://pivotal.io/knative&#34;&gt;Knative&lt;/a&gt;, &lt;a href=&#34;https://spring.io/projects/spring-boot&#34;&gt;Spring Boot&lt;/a&gt; and more is, &lt;a href=&#34;https://twitter.com/DormainDrewitz/status/1223313491156557824&#34;&gt;according to the one and only Dormain Drewitz&lt;/a&gt;, number 2 on the Top Pivotal Conversations episodes of 2019!&lt;/p&gt;
+&lt;p&gt;I&#39;m pretty sure Cote brings his podcasting equipment &lt;em&gt;everywhere&lt;/em&gt; and you can even find him and I discussing &lt;a href=&#34;/publication/pivotal-convo-98/&#34;&gt;12 Factor apps&lt;/a&gt; (and undead sculptures) as well as talking about &lt;a href=&#34;/publication/piv-conv-istanbul-pod/&#34;&gt;ops at SpringOne Tour Istanbul&lt;/a&gt; along with the one and only &lt;a href=&#34;https://twitter.com/pczarkowski&#34;&gt;Paul Czarkowski&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cloud Native Culture</title>
+      <link>/abstracts/cloudculture/</link>
+      <pubDate>Tue, 28 Jan 2020 15:12:28 -0600</pubDate>
+      
+      <guid>/abstracts/cloudculture/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;The shift to cloud computing involves a veritable plethora of new technologies and approaches. From 12 factors to domain driven design, change is afoot. Your organization is knee deep in functions and platforms and containers and while the technology is important, we can’t afford to overlook the importance of culture. What changes when we go to the cloud? How do we get there? How does Conways law affect the success of our efforts? How can we help people navigate the latest evolution in computing? This talk will explore how cloud native computing impacts more than just our architecture.&lt;/p&gt;
+&lt;h2 id=&#34;duration-45-90-minutes&#34;&gt;Duration: 45-90 minutes&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paved Roads</title>
+      <link>/abstracts/pavedroads/</link>
+      <pubDate>Tue, 28 Jan 2020 15:08:56 -0600</pubDate>
+      
+      <guid>/abstracts/pavedroads/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;As we migrate towards distributed applications, it is more than just our architectures that are changing, so too are the structures of our teams. The Inverse Conway Maneuver tells us small, autonomous teams are needed to produce small, autonomous services. Architects are spread thin and can’t be involved with every decision. Today, we must empower our teams but we need to ensure our teams are making good choices. How do we do that? How do you put together a cohesive architecture around distributed teams? This talk will discuss creating “paved roads”, well worn paths that we know works and we can support. We will also explore the importance of fitness functions to help our teams adopt appropriate designs.&lt;/p&gt;
+&lt;h2 id=&#34;duration-45-90-minutes&#34;&gt;Duration: 45-90 minutes&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Architecting Cloud Native Applications</title>
+      <link>/abstracts/archcloudnative/</link>
+      <pubDate>Tue, 28 Jan 2020 15:04:08 -0600</pubDate>
+      
+      <guid>/abstracts/archcloudnative/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;By now your organization has planted a flag in “the Cloud” and it is up to you to figure out just what that means to your application portfolio. Should everything be a microservice? Wait, what is a microservices anyway? How do you deal with massively distributed applications? What do you do with your legacy portfolio? In this presentation, we will walk through how the cloud impacts are applications and what we can do to successfully move our organizations forward.&lt;/p&gt;
+&lt;h3 id=&#34;topics&#34;&gt;Topics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud native culture&lt;/li&gt;
+&lt;li&gt;Domain driven design&lt;/li&gt;
+&lt;li&gt;The importance of paved roads&lt;/li&gt;
+&lt;li&gt;Chaos engineering&lt;/li&gt;
+&lt;li&gt;Production Hardened Services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Please note Architecting Cloud Native Applications can also be delivered as a workshop from 3 hours to 2 days.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;duration-45-90-minutes&#34;&gt;Duration: 45-90 minutes&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Putting the Ops Back Into DevOps, SpringOne Tour Istanbul with Nate Schutta &amp; Paul Czarkowski</title>
+      <link>/publication/piv-conv-istanbul-pod/</link>
+      <pubDate>Mon, 27 May 2019 19:16:59 -0600</pubDate>
+      
+      <guid>/publication/piv-conv-istanbul-pod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knate-ive</title>
+      <link>/publication/piv-conv-knative/</link>
+      <pubDate>Wed, 02 Jan 2019 15:01:11 -0600</pubDate>
+      
+      <guid>/publication/piv-conv-knative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Twelve-Factor App, with Nate Schutta</title>
+      <link>/publication/pivotal-convo-98/</link>
+      <pubDate>Wed, 28 Mar 2018 13:53:26 -0600</pubDate>
+      
+      <guid>/publication/pivotal-convo-98/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

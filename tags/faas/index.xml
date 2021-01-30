@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FaaS on Nathaniel Schutta</title>
+    <link>/tags/faas/</link>
+    <description>Recent content in FaaS on Nathaniel Schutta</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Nathaniel Schutta</copyright>
+    <lastBuildDate>Tue, 28 Jan 2020 15:16:21 -0600</lastBuildDate>
+    
+	    <atom:link href="/tags/faas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Responsible Microservices</title>
+      <link>/abstracts/responsiblemicro/</link>
+      <pubDate>Tue, 28 Jan 2020 15:16:21 -0600</pubDate>
+      
+      <guid>/abstracts/responsiblemicro/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;These days, you can’t swing a dry erase marker without hitting someone talking about microservices. Developers are studying Eric Evan’s prescient book Domain Driven Design. Teams are refactoring monolithic apps, looking for bounded contexts and defining a ubiquitous language. And while there have been countless articles, videos, and talks to help you convert to microservices, few have spent any appreciable time asking if a given application should be a microservice. In this talk, I will show you a set of factors you can apply to help you decide if something deserves to be a microservice or not. We’ll also look at what we need to do to maintain a healthy micro(services)biome.&lt;/p&gt;
+&lt;p&gt;There are many good reasons to use a microservices architecture. But there are no free lunches. The positives of microservices come with added complexity. Teams should happily take on that complexity&amp;hellip;provided the application in question benefits from the upside of microservices. This talk will cut through the hype to help you make the right choice for your unique situation.&lt;/p&gt;
+&lt;p&gt;Responsible Microservices is based on my blog series &lt;a href=&#34;https://content.pivotal.io/blog/should-that-be-a-microservice-keep-these-six-factors-in-mind&#34;&gt;Should that be a Microservice? Keep These Six Factors in Mind&lt;/a&gt; found on the &lt;a href=&#34;https://content.pivotal.io/blog&#34;&gt;Pivotal blog&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;duration-45-90-minutes&#34;&gt;Duration: 45-90 minutes&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolving to Cloud Native</title>
+      <link>/abstracts/evolvingcloudnative/</link>
+      <pubDate>Tue, 28 Jan 2020 15:14:43 -0600</pubDate>
+      
+      <guid>/abstracts/evolvingcloudnative/</guid>
+      <description>&lt;h2 id=&#34;full-abstract&#34;&gt;Full Abstract&lt;/h2&gt;
+&lt;p&gt;Every organization has at least a phalanx or two in the “Cloud” and it is, understandably changing the way we architect our systems. But your application portfolio is full of &amp;ldquo;heritage&amp;rdquo; systems that hail from the time before everything was as a service. Not all of those applications will make it to the valley beyond, how do you grapple with your legacy portfolio? This talk will explore the strategies, tools and techniques you can apply as you evolve towards a cloud native future.&lt;/p&gt;
+&lt;p&gt;In this talk, you will learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;how to evaluate your legacy applications&lt;/li&gt;
+&lt;li&gt;how to take those heritage systems to the Cloud&lt;/li&gt;
+&lt;li&gt;what 12 Factors means for you&lt;/li&gt;
+&lt;li&gt;where it makes sense to use microservices&lt;/li&gt;
+&lt;li&gt;what tools and services you&#39;ll need to add to your repertoire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;duration-45-90-minutes&#34;&gt;Duration: 45-90 minutes&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

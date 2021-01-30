@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nathaniel Schutta</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Nathaniel Schutta</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Nathaniel Schutta</copyright>
+    <lastBuildDate>Fri, 27 Mar 2020 08:30:00 -0600</lastBuildDate>
+    
+	    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>architect</title>
+      <link>/tags/architect/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/architect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>architecture</title>
+      <link>/tags/architecture/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud native</title>
+      <link>/tags/cloud-native/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/cloud-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>/tags/conference/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>culture</title>
+      <link>/tags/culture/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fundamentals</title>
+      <link>/tags/fundamentals/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/fundamentals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O’Reilly</title>
+      <link>/tags/oreilly/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/oreilly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>services</title>
+      <link>/tags/services/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>techniques</title>
+      <link>/tags/techniques/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/techniques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>/tags/technology/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thinking</title>
+      <link>/tags/thinking/</link>
+      <pubDate>Fri, 27 Mar 2020 08:30:00 -0600</pubDate>
+      
+      <guid>/tags/thinking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JUG</title>
+      <link>/tags/jug/</link>
+      <pubDate>Thu, 19 Mar 2020 18:00:00 -0600</pubDate>
+      
+      <guid>/tags/jug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user group</title>
+      <link>/tags/user-group/</link>
+      <pubDate>Thu, 19 Mar 2020 18:00:00 -0600</pubDate>
+      
+      <guid>/tags/user-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nfjs</title>
+      <link>/tags/nfjs/</link>
+      <pubDate>Fri, 13 Mar 2020 12:00:00 -0600</pubDate>
+      
+      <guid>/tags/nfjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nofluffjuststuff</title>
+      <link>/tags/nofluffjuststuff/</link>
+      <pubDate>Fri, 13 Mar 2020 12:00:00 -0600</pubDate>
+      
+      <guid>/tags/nofluffjuststuff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boot</title>
+      <link>/tags/boot/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>/tags/cloud/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>containers</title>
+      <link>/tags/containers/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/containers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functions</title>
+      <link>/tags/functions/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>/tags/k8s/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>/tags/kubernetes/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microservices</title>
+      <link>/tags/microservices/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reactive</title>
+      <link>/tags/reactive/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/reactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring</title>
+      <link>/tags/spring/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trade-offs</title>
+      <link>/tags/trade-offs/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/trade-offs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VMware</title>
+      <link>/tags/vmware/</link>
+      <pubDate>Mon, 09 Mar 2020 08:00:00 -0600</pubDate>
+      
+      <guid>/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>online</title>
+      <link>/tags/online/</link>
+      <pubDate>Mon, 02 Mar 2020 09:00:00 -0600</pubDate>
+      
+      <guid>/tags/online/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devnexus</title>
+      <link>/tags/devnexus/</link>
+      <pubDate>Wed, 19 Feb 2020 09:00:00 -0600</pubDate>
+      
+      <guid>/tags/devnexus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workshop</title>
+      <link>/tags/workshop/</link>
+      <pubDate>Wed, 19 Feb 2020 09:00:00 -0600</pubDate>
+      
+      <guid>/tags/workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>knative</title>
+      <link>/tags/knative/</link>
+      <pubDate>Wed, 05 Feb 2020 15:14:48 -0600</pubDate>
+      
+      <guid>/tags/knative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pivotal</title>
+      <link>/tags/pivotal/</link>
+      <pubDate>Wed, 05 Feb 2020 15:14:48 -0600</pubDate>
+      
+      <guid>/tags/pivotal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcast</title>
+      <link>/tags/podcast/</link>
+      <pubDate>Wed, 05 Feb 2020 15:14:48 -0600</pubDate>
+      
+      <guid>/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>communication</title>
+      <link>/tags/communication/</link>
+      <pubDate>Tue, 28 Jan 2020 15:23:49 -0600</pubDate>
+      
+      <guid>/tags/communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ilities</title>
+      <link>/tags/ilities/</link>
+      <pubDate>Tue, 28 Jan 2020 15:23:49 -0600</pubDate>
+      
+      <guid>/tags/ilities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>12factor</title>
+      <link>/tags/12factor/</link>
+      <pubDate>Tue, 28 Jan 2020 15:16:21 -0600</pubDate>
+      
+      <guid>/tags/12factor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FaaS</title>
+      <link>/tags/faas/</link>
+      <pubDate>Tue, 28 Jan 2020 15:16:21 -0600</pubDate>
+      
+      <guid>/tags/faas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless</title>
+      <link>/tags/serverless/</link>
+      <pubDate>Tue, 28 Jan 2020 15:16:21 -0600</pubDate>
+      
+      <guid>/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>/tags/talk/</link>
+      <pubDate>Tue, 28 Jan 2020 15:16:21 -0600</pubDate>
+      
+      <guid>/tags/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lessons learned</title>
+      <link>/tags/lessons-learned/</link>
+      <pubDate>Wed, 04 Sep 2019 19:09:47 -0600</pubDate>
+      
+      <guid>/tags/lessons-learned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>principles</title>
+      <link>/tags/principles/</link>
+      <pubDate>Wed, 04 Sep 2019 19:09:47 -0600</pubDate>
+      
+      <guid>/tags/principles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UberConfX</title>
+      <link>/tags/uberconfx/</link>
+      <pubDate>Wed, 04 Sep 2019 19:09:47 -0600</pubDate>
+      
+      <guid>/tags/uberconfx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>/tags/devops/</link>
+      <pubDate>Mon, 27 May 2019 19:16:59 -0600</pubDate>
+      
+      <guid>/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ops</title>
+      <link>/tags/ops/</link>
+      <pubDate>Mon, 27 May 2019 19:16:59 -0600</pubDate>
+      
+      <guid>/tags/ops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SRE</title>
+      <link>/tags/sre/</link>
+      <pubDate>Mon, 27 May 2019 19:16:59 -0600</pubDate>
+      
+      <guid>/tags/sre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book</title>
+      <link>/tags/book/</link>
+      <pubDate>Thu, 31 May 2018 17:27:45 -0600</pubDate>
+      
+      <guid>/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>12-factor</title>
+      <link>/tags/12-factor/</link>
+      <pubDate>Wed, 28 Mar 2018 13:53:26 -0600</pubDate>
+      
+      <guid>/tags/12-factor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paris</title>
+      <link>/tags/paris/</link>
+      <pubDate>Wed, 28 Mar 2018 13:53:26 -0600</pubDate>
+      
+      <guid>/tags/paris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sculptures</title>
+      <link>/tags/sculptures/</link>
+      <pubDate>Wed, 28 Mar 2018 13:53:26 -0600</pubDate>
+      
+      <guid>/tags/sculptures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keynote</title>
+      <link>/tags/keynote/</link>
+      <pubDate>Sat, 28 Oct 2017 09:22:09 -0600</pubDate>
+      
+      <guid>/tags/keynote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>/tags/video/</link>
+      <pubDate>Sat, 28 Oct 2017 09:22:09 -0600</pubDate>
+      
+      <guid>/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>engineer</title>
+      <link>/tags/engineer/</link>
+      <pubDate>Fri, 28 Apr 2017 17:32:31 -0600</pubDate>
+      
+      <guid>/tags/engineer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Fri, 28 Apr 2017 17:32:31 -0600</pubDate>
+      
+      <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enterprise Architecture</title>
+      <link>/tags/enterprise-architecture/</link>
+      <pubDate>Wed, 28 Dec 2016 19:03:33 -0600</pubDate>
+      
+      <guid>/tags/enterprise-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>patterns</title>
+      <link>/tags/patterns/</link>
+      <pubDate>Mon, 28 Mar 2016 08:15:50 -0600</pubDate>
+      
+      <guid>/tags/patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentation</title>
+      <link>/tags/presentation/</link>
+      <pubDate>Mon, 28 Mar 2016 08:15:50 -0600</pubDate>
+      
+      <guid>/tags/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Addison-Wesley</title>
+      <link>/tags/addison-wesley/</link>
+      <pubDate>Tue, 28 Aug 2012 09:59:45 -0600</pubDate>
+      
+      <guid>/tags/addison-wesley/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
